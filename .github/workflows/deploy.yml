@@ -1,4 +1,4 @@
-name: Push-to-server
+name: Push-to-Server
 
 on:
   push:
