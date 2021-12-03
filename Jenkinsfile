@@ -13,14 +13,6 @@ pipeline {
               ])
           }
         }
-        stage('pwdl'){
-             steps {
-               script {
-                 sh "pwd"
-                 sh "ls -la"
-               }
-             }
-          }
         stage ('Deploy') {
             steps{
                 sshagent(credentials : ['github-jenkins-ssh']) {
