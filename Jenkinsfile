@@ -21,14 +21,14 @@ pipeline {
                }
              }
           }
-//         stage ('Deploy') {
-//             steps{
-//                 sshagent(credentials : ['github-jenkins-ssh']) {
-//                     sh 'ssh -o StrictHostKeyChecking=no user@hostname.com uptime'
-//                     sh 'ssh -v user@hostname.com'
-//                     sh 'scp ./source/filename user@hostname.com:/remotehost/target'
-//                 }
-//             }
-//         }
+        stage ('Deploy') {
+            steps{
+                sshagent(credentials : ['github-jenkins-ssh']) {
+                    sh 'ssh -o StrictHostKeyChecking=no ubuntu@172.16.79.249 uptime'
+                    sh 'ssh -v ubuntu@172.16.79.249'
+                    sh 'scp ./index.html ubuntu@172.16.79.249:/var/www/devopstest/'
+                }
+            }
+        }
     }
 }
