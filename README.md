@@ -20,5 +20,8 @@ Webserver: http://3.249.180.211/
 
 
 ## _To make some changes_
-Edit index.html file in the repo [github repo](https://github.com/gentitope/devopstest.git) and change to the colour of your choice as seen the sceenshot below
+* Edit index.html file in the repo [github repo](https://github.com/gentitope/devopstest.git) and change to the colour of your choice as seen the sceenshot below
 ![screenshot](screenshot.png)
+* Commit your changes
+* Deploy test job on Jenkins Server: http://54.171.72.24:8080 (admin/admin)
+* And then point your browser to: http://3.249.180.211/
