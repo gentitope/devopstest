@@ -14,8 +14,8 @@ This is to build up a very simple html website on this [github repo](https://git
 
 
 ## _Starting point_
-The code is available on GitHub [github repo](https://github.com/gentitope/devopstest.git).
-Jenkins-server: http://54.171.72.24:8080 (admin/admin)
+The code is available on GitHub [github repo](https://github.com/gentitope/devopstest.git),
+Jenkins-server: http://54.171.72.24:8080 (admin/admin) and 
 Webserver: http://3.249.180.211/
 
 
